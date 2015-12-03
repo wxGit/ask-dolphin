@@ -1,0 +1,125 @@
+@charset "utf-8";
+a{
+    cursor: pointer;
+}
+b{
+    margin-right:3px;
+}
+
+.hwq-myattention{
+    height: 60px;
+    min-width: 817px;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 60px;
+    border-bottom: 1px solid #d0d6d9;
+}
+.hwq-nav{
+    height: 52px;
+    width: 100%;
+    min-width: 817px;
+    background: #fcfcfc;
+    color: #808080;
+    font-size: 14px;
+    text-align: center;
+}
+.hwq-nav ul li{
+    float: left;
+    width: 33.3%;
+    height: 50px;
+    line-height: 50px;
+}
+.hwq-nav ul li span{
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+.hwq-nav-current{
+    border-bottom: 2px solid #4e51ac;
+    color: #4e51ac;
+}
+.hwq-main-myattention{
+    clear: both;
+    text-align: left;
+    width: 100%;
+}
+.hwq-main-myattention ul li{
+    min-width:817px;
+    height: 90px;
+    padding: 30px 0 30px 0;
+    border-bottom: 1px solid #e3e5e5;
+}
+.hwq-main-myattention ul li .hwq-main-img{
+    float: left;
+    height: 100%;
+    width: 15%;
+}
+.hwq-main-myattention ul li .hwq-main-content{
+    float: left;
+    height: 100%;
+    width: 85%;
+}
+.hwq-main-myattention ul li .hwq-main-img p{
+    color: #666666;
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top: 8px;
+}
+.hwq-main-myattention ul li .hwq-main-img img{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-left: 44px;
+
+}
+.hwq-main-myattention ul li .hwq-main-content .hwq-content{
+    float: left;
+    height: 100%;
+    width: 90%;
+}
+.hwq-main-myattention ul li .hwq-main-content .hwq-content .hwq-q-w{
+    height: 58px;
+    width: 100%;
+    line-height: 26px;
+}
+.hwq-main-myattention ul li .hwq-main-content .hwq-content .hwq-q-w p{
+    font-size: 14px;
+    color: #000000;
+
+}
+.hwq-main-myattention ul li .hwq-main-content .hwq-content .hwq-q-w p span{
+    font-size: 16px;
+    color: #ffc3a6;
+
+}
+.hwq-main-myattention ul li .hwq-main-content .hwq-content .hwq-time{
+    display: inline-block;
+    color: #cccccc;
+    font-size: 12px;
+    height: 20px;
+}
+.hwq-main-myattention ul li .hwq-main-content .hwq-content .hwq-time i{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+
+}
+.hwq-main-myattention ul li .hwq-main-content .hwq-statistics{
+    float: left;
+    height: 100%;
+    width: 10%;
+    color: #ffc44c;
+    font-size: 12px;
+}
+.hwq-main-myattention ul li .hwq-main-content .hwq-statistics p{
+    margin-left: 15px;
+}
+.hwq-main-myattention ul li .hwq-main-content .hwq-statistics .hwq-praise{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    margin: 9px 7px;
+}

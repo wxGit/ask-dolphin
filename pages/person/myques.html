@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>个人中心-我的问题</title>
+    <link rel="stylesheet" href="../../resources/css/public/base.css"/>
+    <link rel="stylesheet" href="../../resources/css/person/mycollection.css"/>
+</head>
+<body>
+
+<!--header部分-->
+<div id="header">
+    <div class="wx-header-center clear">
+        <div class="wx-header-logo fl"></div>
+        <div class="wx-header-nav fl">
+            <ul id="wx-nav-ul" class="clear">
+                <a href="../index.html"><li>首页</li></a>
+                <a href="../special.html"><li>专题</li></a>
+                <a href="../tag.html"><li>标签</li></a>
+            </ul>
+        </div>
+        <div class="wx-header-user fr">
+            <div id="wx-user-btn" class="clear">
+                <a href="#"><span>登录</span></a>
+            </div>
+        </div>
+
+        <!--登录成功头像部分-->
+        <div id="wx-pic-position" class="fr" style="display:none">
+            <span>|</span>
+            <p class="wx-pic-box">
+                <img src="../../resources/img/bigpic.png" width="30px"/>
+            </p>
+        </div>
+        <!--结束-->
+
+        <div class="wx-header-ask icon-ask fr">&#xe615;</div>
+
+        <div class="wx-header-search fr">
+            <form name="wx-search" class="clear">
+                <span id="wx-tag-area" style="display:none">javascript<i>x</i></span>
+                <input type="text" value="" placeholder="搜索问题" id="wx-search-text" class="round"/>
+                <input type="button" id="wx-search-btn" class="icon-search"value="&#xe612;"/>
+            </form>
+        </div>
+    </div>
+</div>
+<!--header部分结束-->
+<!--中间内容部分-->
+<div id="wx-content" class="clear">
+    <div class="wx-person-aside fl">
+        <div class="wx-person-user clear">
+            <div class="wx-person-pic fl">
+                <img src="../../resources/img/bigpic.png" width="80px" id="headimg"/>
+            </div>
+            <div class="wx-person-name fl">
+                <h2>qq_jj_1</h2>
+                <p>UI设计师</p>
+            </div>
+        </div>
+        <div class="wx-person-qa clear">
+            <p class="first" style="color:#4e51ac;">
+                <i>0</i>
+                <a href="#" style="color:#4e51ac;"><span>问过</span></a>
+            </p>
+            <p>
+                <i>10</i>
+                <a href="#"><span>回答</span></a>
+            </p>
+        </div>
+        <ul id="wx-person-list">
+            <li><a href="#">我的收藏</a></li>
+            <li><a href="#">我的关注</a></li>
+            <li><a href="#">消息通知</a></li>
+            <li><a href="#">退出登录</a></li>
+        </ul>
+    </div>
+    <div class="wx-person-article fr">
+        <h2>问题 <span>10</span></h2>
+        <div id="wx-main">
+
+            <!--问题列表开始-->
+            <div class="wx-main-li">
+             <div class="wx-main-pic fl">
+               <p class="wx-circle-pic">
+                  <img src="../../resources/img/dasheng.jpg" width="40"/>
+               </p>
+               <p>大卫and科比</p>
+             </div>
+             <div class="wx-main-ques fl">
+               <p class="wx-ques-title"><b class="icon-title">&#xe613;</b>为什么老师的代码中，语句都不喜欢加;</p>
+               <p class="wx-ques-desc"><b class="icon-desc">&#xe614;</b>这个问题考虑了很久了~</p>
+               <p class="wx-ques-tags">
+                 <em><b class="icon-clock">&#xe610;</b>1小时前</em>
+                 <span>
+                   <i>Javascript</i>
+                   <i>Html/CSS</i>
+                 </span>
+               </p>
+             </div>
+             <div class="wx-main-btn fr">
+               <ul class="wx-main-btn-ul clear">
+                 <li>
+                   <span class="wx-count1">0</span>
+                   <p class="wx-reply-btn icon-reply">&#xe60a;</p>
+                 </li>
+                 <li>
+                   <span class="wx-count2">0</span>
+                   <p class="wx-view-btn icon-view">&#xe60b;</p>
+                 </li>
+                 <li>
+                   <span class="wx-count3">1</span>
+                   <p class="wx-vote-btn icon-vote">&#xe617;</p>
+                 </li>
+               </ul>
+             </div>
+            </div>
+            <!--结束-->
+
+
+            <!--当提问为空时显示界面-->
+            <div id="wx-empty" style="display:none">
+                <img src="../../resources/img/empty.png"/>
+                <p>您老太忙，把这事给忘了~</p>
+            </div>
+            <!--结束-->
+
+        </div>
+
+    </div>
+</div>
+<!--中间部分结束-->
+
+<!--footer部分-->
+<div id="footer">
+    <div class="wx-footer-center">
+        <div class="wx-footer-links">
+            <ul class="clear">
+                <li><a href="javascript:void(0)" target="_blank">learn</a></li>
+                <li><a href="http://www.newtouchone.com/" target="_blank">newtouchone</a></li>
+                <li><a href="http://maven.newtouchone.com/" target="_blank">maven</a></li>
+                <li><a href="http://git.newtouchone.com/" target="_blank">git</a></li>
+            </ul>
+            <p>Copyright © 2015 newtouchone.com All Rights Reserved</p>
+        </div>
+    </div>
+</div>
+<!--footer部分结束-->
+</body>
+</html>

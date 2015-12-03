@@ -1,0 +1,175 @@
+@charset "utf-8";
+b{
+	margin-right:3px;
+}
+
+/*首页中间内容*/
+#wx-content{
+	width:89%;
+	margin:30px auto;
+}
+#wx-content .wx-article{
+	width:68%;
+	min-width:650px;
+}
+#wx-content .wx-article .wx-tag-desc{
+	width:100%;
+}
+#wx-content .wx-article .wx-tag-desc p.wx-tag-name{
+	width:80px;
+	height:25px;
+	background:#ffaa7f;
+	color:#fff;
+	line-height:25px;
+}
+#wx-content .wx-article .wx-tag-desc p.wx-tag-content{
+	width:100%;
+	padding:23px 0;
+	text-align:left;
+}
+
+/*article导航*/
+#wx-article-nav{
+	width:100%;
+	height:50px;
+	background:#fcfcfc;
+}
+#wx-article-nav li{
+	width:33.3%;
+	height:50px;
+	float:left;
+	line-height:50px;
+	color:#808080;
+	cursor:pointer;
+}
+#wx-article-nav li:hover{
+	color:#4e51ac;
+}
+#wx-article-nav li.wx-article-active{
+	color:#4e51ac;
+	height:49px;
+	border-bottom:1px solid #4e51ac;
+}
+
+
+
+/*aside部分*/
+#wx-content .wx-aside{
+	width:282px;
+}
+
+#wx-content .wx-aside h2{
+	width:100%;
+	height:36px;
+	font-size:16px;
+	line-height:36px;
+	text-align:left;
+}
+#wx-content .wx-aside .wx-all-count{
+	width:100%;
+	height:85px;
+	margin-bottom:25px;
+}
+#wx-content .wx-aside .wx-all-count p{
+	width:100%;
+	height:48px;
+	line-height:48px;
+	text-align:center;
+	text-indent:65px;
+}
+#wx-content .wx-aside .wx-all-count p span{
+	font-size:28px;
+	color:#4e51ac;
+	margin-right:40px;
+}
+#wx-content .wx-aside .wx-all-count h2 i{
+	color:#ffaa7f;
+}
+#wx-content .wx-aside .wx-hot-tags{
+	width:100%;
+	height:356px;
+}
+#wx-hot li{
+	width:100%;
+	height:24px;
+	margin-bottom:6px;
+	text-align:left;
+}
+#wx-hot li i{
+	display:inline-block;
+	height:24px;
+	line-height:24px;
+	padding:0 6px;
+	margin-right:10px;
+	background:#e4edf4;
+	cursor:pointer;
+}
+#wx-hot li i:hover{
+	background:#ffc44c;
+	color:#fff;
+}
+#wx-hot li span{
+	margin-left:10px;
+}
+#wx-content .wx-aside .wx-hot-tags p{
+	text-align:left;
+	margin-top:17px;
+	color:#999999;
+	cursor:pointer;
+}
+#wx-content .wx-aside .wx-week-ques{
+	width:100%;
+}
+#wx-content .wx-aside .wx-hot-tags h2,#wx-content .wx-aside .wx-week-ques h2{
+	border-bottom:1px solid #d0d6d9;
+}
+#wx-content .wx-aside .wx-hot-tags h2{
+	margin-bottom:24px;
+}
+
+#wx-week-hot li{
+	width:100%;
+	height:96px;
+	padding-top:22px;
+    border-bottom:1px solid #e3e5e5;
+}
+#wx-week-hot li p{
+	text-align:left;
+	margin-bottom:15px;
+}
+#wx-week-hot li p.wx-hot-title{
+	font-size:15px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+
+/*分页部分*/
+#page{
+	margin-top:20px;
+	color:#787d82;
+}
+#page a{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	line-height:30px;
+	margin-right:15px;
+	color:#787d82;
+}
+#page span{
+	margin-right:15px;
+	cursor:pointer;
+}
+#page .wx-disabled{
+	color:#c8cdda;
+}
+#page .wx-page-active{
+	background:#4e51ac;
+	color:#fff;
+}
+#page a:not(.wx-page-active):hover{
+	border-bottom:1px solid #4e51ac;
+	color:#4e51ac;
+	height:29px;
+}

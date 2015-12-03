@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>标签详情页</title>
+  <link rel="stylesheet" href="../resources/css/public/base.css"/>
+  <link rel="stylesheet" href="../resources/css/tag_detail/tag_detail.css"/>
+</head>
+<body>
+
+<!--header部分-->
+<div id="header">
+  <div class="wx-header-center clear">
+    <div class="wx-header-logo fl"></div>
+    <div class="wx-header-nav fl">
+      <ul id="wx-nav-ul" class="clear">
+        <a href="index.html"><li>首页</li></a>
+        <a href="special.html"><li>专题</li></a>
+        <a href="tag.html"><li>标签</li></a>
+      </ul>
+    </div>
+    <div class="wx-header-user fr">
+      <div id="wx-user-btn" class="clear">
+        <a href="#"><span>登录</span></a>
+      </div>
+    </div>
+
+    <!--登录成功头像部分-->
+    <div id="wx-pic-position" class="fr" style="display:none">
+      <span>|</span>
+      <p class="wx-pic-box">
+        <img src="../resources/img/bigpic.png" width="30px"/>
+      </p>
+    </div>
+    <!--结束-->
+
+    <div class="wx-header-ask icon-ask fr">&#xe615;</div>
+
+    <div class="wx-header-search fr">
+      <form name="wx-search" class="clear">
+        <span id="wx-tag-area" style="display:none">javascript<i>x</i></span>
+        <input type="text" value="" placeholder="搜索问题" id="wx-search-text" class="round"/>
+        <input type="button" id="wx-search-btn" class="icon-search"value="&#xe612;"/>
+      </form>
+    </div>
+  </div>
+</div>
+<!--header部分结束-->
+
+<!--中间内容部分-->
+<div id="wx-content" class="clear">
+  <div class="wx-article fl">
+    <div class="wx-tag-desc">
+      <p class="wx-tag-name"><span>Javascript</span></p>
+      <p class="wx-tag-content">JavaScript一种直译式脚本语言，是一种动态类型、弱类型、基于原型的语言，内置支持类型。它的解释器被称为JavaScript引擎，为浏览器的一部分，广泛用于客户端的脚本语言，最早是在HTML（标准通用标记语言下的一个应用）网页上使用，用来给HTML网页增加动态功能。</p>
+    </div>
+
+    <!--同首页article部分-->
+    <ul id="wx-article-nav" class="clear">
+      <li class="wx-article-active">最新</li>
+      <li>热门</li>
+      <li>未回答</li>
+    </ul>
+    <div id="wx-main">
+
+      <!--问题列表开始-->
+      <div class="wx-main-li">
+         <div class="wx-main-pic fl">
+           <p class="wx-circle-pic">
+              <img src="../resources/img/dasheng.jpg" width="40"/>
+           </p>
+           <p>大卫and科比</p>
+         </div>
+         <div class="wx-main-ques fl">
+           <p class="wx-ques-title"><b class="icon-title">&#xe613;</b>为什么老师的代码中，语句都不喜欢加;</p>
+           <p class="wx-ques-desc"><b class="icon-desc">&#xe614;</b>这个问题考虑了很久了~</p>
+           <p class="wx-ques-tags">
+             <em><b class="icon-clock">&#xe610;</b>1小时前</em>
+             <span>
+               <i>Javascript</i>
+               <i>Html/CSS</i>
+             </span>
+           </p>
+         </div>
+         <div class="wx-main-btn fr">
+           <ul class="wx-main-btn-ul clear">
+             <li>
+               <span class="wx-count1">1</span>
+               <p class="wx-reply-btn icon-reply">&#xe60a;</p>
+             </li>
+             <li>
+               <span class="wx-count2">2</span>
+               <p class="wx-view-btn icon-view">&#xe60b;</p>
+             </li>
+             <li>
+               <span class="wx-count3">2</span>
+               <p class="wx-vote-btn icon-vote">&#xe617;</p>
+             </li>
+           </ul>
+         </div>
+       </div>
+      <!--问题列表结束-->
+
+      <div id="page">
+      </div>
+    </div>
+    <!--结束-->
+  </div>
+  <div class="wx-aside fr">
+    <!--同首页aside-->
+    <div class="wx-all-count">
+      <h2>关于<i>Javascript</i>共有</h2>
+      <p><span>985</span>个问题</p>
+    </div>
+    <div class="wx-hot-tags">
+      <h2>相关标签</h2>
+      <ul id="wx-hot">
+        <li>
+          <i>Java</i>x<span>93789</span>
+        </li>
+        <li>
+          <i>Java</i>x<span>39698</span>
+        </li>
+        <li>
+          <i>Html/CSS</i>x<span>93789</span>
+        </li>
+        <li>
+          <i>Javascript</i>x<span>34876</span>
+        </li>
+        <li>
+          <i>Python</i>x<span>23765</span>
+        </li>
+        <li>
+          <i>MySQL</i>x<span>65345</span>
+        </li>
+        <li>
+          <i>NodeJS</i>x<span>56745</span>
+        </li>
+        <li>
+          <i>AngularJS</i>x<span>45763</span>
+        </li>
+      </ul>
+      <p>更多...</p>
+    </div>
+    <div class="wx-week-ques">
+      <h2>一周热门问题</h2>
+      <ul id="wx-week-hot">
+        <li>
+          <p class="wx-hot-title"><b class="icon-red">&#xe603;</b>为什么老师的代码中，语句都不喜欢加;</p>
+          <p><b class="icon-desc">&#xe614;</b>这个问题考虑了很久了...</p>
+        </li>
+        <li>
+          <p class="wx-hot-title"><b class="icon-orange">&#xe603;</b>为什么老师的代码中，语句都不喜欢加;</p>
+          <p><b class="icon-desc">&#xe614;</b>这个问题考虑了很久了...</p>
+        </li>
+        <li>
+          <p class="wx-hot-title"><b class="icon-yellow">&#xe603;</b>为什么老师的代码中，语句都不喜欢加;</p>
+          <p><b class="icon-desc">&#xe614;</b>这个问题考虑了很久了...</p>
+        </li>
+        <li>
+          <p class="wx-hot-title"><b class="icon-gray">&#xe603;</b>为什么老师的代码中，语句都不喜欢加;</p>
+          <p><b class="icon-desc">&#xe614;</b>这个问题考虑了很久了...</p>
+        </li>
+      </ul>
+    </div>
+    <!--结束-->
+  </div>
+</div>
+<!--中间部分结束-->
+
+<!--footer部分-->
+<div id="footer">
+  <div class="wx-footer-center">
+    <div class="wx-footer-links">
+      <ul class="clear">
+        <li><a href="javascript:void(0)" target="_blank">learn</a></li>
+        <li><a href="http://www.newtouchone.com/" target="_blank">newtouchone</a></li>
+        <li><a href="http://maven.newtouchone.com/" target="_blank">maven</a></li>
+        <li><a href="http://git.newtouchone.com/" target="_blank">git</a></li>
+      </ul>
+      <p>Copyright © 2015 newtouchone.com All Rights Reserved</p>
+    </div>
+  </div>
+</div>
+<!--footer部分结束-->
+<script src="../resources/js/public/jquery-1.8.0.min.js"></script>
+<script src="../resources/js/public/base.js"></script>
+<script src="../resources/js/tag/tag.js"></script>
+</body>
+</html>

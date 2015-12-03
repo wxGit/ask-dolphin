@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>个人中心-个人资料</title>
+    <link rel="stylesheet" href="../../resources/css/public/base.css"/>
+    <link rel="stylesheet" href="../../resources/css/person/information.css">
+</head>
+<body>
+<!--header部分-->
+<div id="header">
+    <div class="wx-header-center clear">
+        <div class="wx-header-logo fl"></div>
+        <div class="wx-header-nav fl">
+            <ul id="wx-nav-ul" class="clear">
+                <a href="../index.html"><li>首页</li></a>
+                <a href="../special.html"><li>专题</li></a>
+                <a href="../tag.html"><li>标签</li></a>
+            </ul>
+        </div>
+        <div class="wx-header-user fr">
+            <div id="wx-user-btn" class="clear">
+                <a href="#"><span>登录</span></a>
+            </div>
+        </div>
+
+        <!--登录成功头像部分-->
+        <div id="wx-pic-position" class="fr" style="display:none">
+            <span>|</span>
+            <p class="wx-pic-box">
+                <img src="../../resources/img/bigpic.png" width="30px"/>
+            </p>
+        </div>
+        <!--结束-->
+
+        <div class="wx-header-ask icon-ask fr">&#xe615;</div>
+
+        <div class="wx-header-search fr">
+            <form name="wx-search" class="clear">
+                <span id="wx-tag-area" style="display:none">javascript<i>x</i></span>
+                <input type="text" value="" placeholder="搜索问题" id="wx-search-text" class="round"/>
+                <input type="button" id="wx-search-btn" class="icon-search"value="&#xe612;"/>
+            </form>
+        </div>
+    </div>
+</div>
+<!--header部分结束-->
+
+<!--中间内容部分-->
+<div id="wx-content" class="clear">
+    <div class="wx-person-aside fl">
+        <div class="wx-person-user clear">
+            <div class="wx-person-pic fl">
+                <img src="../../resources/img/bigpic.png" width="80px"/>
+            </div>
+            <div class="wx-person-name fl">
+                <h2>qq_jj_1</h2>
+                <p>UI设计师</p>
+            </div>
+        </div>
+        <div class="wx-person-qa clear">
+            <p class="first">
+                <i>0</i>
+                <a href="#"><span>问过</span></a>
+            </p>
+            <p>
+                <i>10</i>
+                <a href="#"><span>回答</span></a>
+            </p>
+        </div>
+        <ul id="wx-person-list">
+            <li><a href="#">我的收藏</a></li>
+            <li><a href="#">我的关注</a></li>
+            <li><a href="#">消息通知</a></li>
+            <li><a href="#">退出登录</a></li>
+        </ul>
+    </div>
+    <div class="wx-person-article fr">
+        <div class="zl-person-title clear">
+            <p>个人资料</p>
+        </div>
+        <div class="zl-main-content">
+            <form>
+                <div class="zl-content-left fl">
+                    <img class="zl-img-person" src="../../resources/img/person_pic.png"/>
+                    <button class="zl-btn-sumbit">上传头像</button>
+                </div>
+                <div class="zl-content-right fl">
+                    <div class="zl-right-name">
+                        <span>昵称</span>
+                        <input type="text" class="zl-input-name fr" value="zyj5241" name="name"/>
+                        <i class="zl-icon-name"></i>
+                        <div class="zl-div-check"> <i class="zl-check"></i></div>
+                    </div>
+                    <div class="zl-right-radio-btn">
+                        <span>性别</span>
+                        <!--  <div class="zl-input-radio">-->
+                        <div class="hwq-sex" style="margin-left: 42px;">
+                            <span>
+                                <input class="zl-input-radio" id="zl-input-radio1" type="radio" name="sex" checked/>
+                                <div><i></i></div>保密
+                            </span>
+                        </div>
+                        <div class="hwq-sex">
+                            <span>
+                                <input class="zl-input-radio" type="radio" name="sex"/>
+                                <div><i></i></div>男
+                            </span>
+                        </div>
+                        <div class="hwq-sex">
+                            <span>
+                                <input class="zl-input-radio" type="radio" name="sex"/>
+                                <div><i></i></div>女
+                            </span>
+                        </div>
+                        <!--<input class="zl-input-radio1" id="zl-input-radio1" type="radio" name="sex" checked/>保密-->
+                        <!--<input class="zl-input-radio2" type="radio" name="sex"/>男-->
+                        <!--<input class="zl-input-radio3" type="radio" name="sex"/>女-->
+                    </div>
+                    <div class="zl-right-phone">
+                        <span>手机号</span>
+                        <input type="tel" class="zl-input-phone fr" name="phone"/>
+                        <i class="zl-icon-phone"></i>
+                    </div>
+                    <div class="zl-right-mail">
+                        <span>邮箱</span>
+                        <input type="email" class="zl-input-mail fr" name="email"/>
+                        <i class="zl-icon-mail"></i>
+                    </div>
+                    <div class="zl-right-sign">
+                        <span>个人签名</span>
+                        <textarea class="zl-input-sign fr" name="signature"></textarea>
+                    </div>
+                    <button type="submit" class="zl-btn-save">保存</button>
+                </div>
+            </form>
+        </div>
+        <!--<div class="zl-edit-content">
+            <div class="zl-old-password" >
+                当前密码<input type="text" class="zl-input-old" placeholder="请输入当前密码"/>
+                <i class="zl-input-img"></i>
+                <p></p>
+            </div>
+            <div class="zl-old-password">
+                新密码<input type="text" class="zl-input-new" placeholder="请输入新密码"/>
+                <i class="zl-input-img"></i>
+            </div>
+            <div class="zl-old-password">
+                确认密码<input type="text" class="zl-input-sure" placeholder="请再次输入新密码"/>
+                <i class="zl-input-img"></i>
+            </div>
+            <button class="zl-btn">保存</button>
+        </div>-->
+    </div>
+</div>
+<!--中间部分结束-->
+
+<!--footer部分-->
+<div id="footer">
+    <div class="wx-footer-center">
+        <div class="wx-footer-links">
+            <ul class="clear">
+                <li>网站首页</li>
+                <li>联系我们</li>
+                <li>关于我们</li>
+                <li>讲师招募</li>
+                <li>意见反馈</li>
+                <li>友情链接</li>
+            </ul>
+            <p>Copyright © 2015 imooc.com All Rights Reserved | 沪ICP备 13046642号-2</p>
+        </div>
+    </div>
+</div>
+<!--footer部分结束-->
+</body>
+</html>

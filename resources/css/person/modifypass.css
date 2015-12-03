@@ -1,0 +1,72 @@
+@charset "utf-8";
+#wx-content .wx-person-article {
+    width: 840px;
+    height: 500px;
+    border: none;
+}
+.zl-person-title{
+    border-bottom: 1px solid #d0d6d9;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: #000000;
+    font-size: 16px;
+}
+.zl-person-title p{
+    text-align: left;
+}
+.zl-edit-content{
+    height: 100%;
+    padding-top: 70px;
+}
+.zl-old-password{
+    height: 80px;
+}
+.zl-input-old{
+    border-radius: 4px;
+    width: 320px;
+    outline: none;
+    height: 40px;
+    border: 1px solid #a6a6a6;
+    text-indent: 50px;
+    margin-left: 13px;
+}
+.zl-input-img{
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    background: url("../../img/lock.png") no-repeat;
+    right: 313px;
+    top: 5px;
+    border-right: 1px solid #f2f2f2;
+}
+.zl-input-new{
+    border-radius: 4px;
+    width: 320px;
+    outline: none;
+    height: 40px;
+    border: 1px solid #a6a6a6;
+    text-indent: 50px;
+    margin-left: 26px;
+}
+.zl-input-sure{
+    border-radius: 4px;
+    width: 320px;
+    outline: none;
+    height: 40px;
+    border: 1px solid #a6a6a6;
+    text-indent: 50px;
+    margin-left: 13px;
+}
+.zl-btn{
+    width: 320px;
+    height: 42px;
+    background-color: #4e51ac;
+    border-radius: 4px;
+    margin-left: 32px;
+    outline: none;
+    border: 1px solid #4e51ac;
+    color: #ffffff;
+    font-size: 18px;
+}
+

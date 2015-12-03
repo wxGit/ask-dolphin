@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>问题详情页</title>
+<link rel="stylesheet" href="../resources/css/public/base.css"/>
+<link rel="stylesheet" href="../resources/css/ques_detail/ques_detail.css"/>
+</head>
+<body>
+
+<!--header部分-->
+<div id="header">
+    <div class="wx-header-center clear">
+        <div class="wx-header-logo fl"></div>
+        <div class="wx-header-nav fl">
+            <ul id="wx-nav-ul" class="clear">
+                <a href="index.html"><li>首页</li></a>
+                <a href="special.html"><li>专题</li></a>
+                <a href="tag.html"><li>标签</li></a>
+            </ul>
+        </div>
+        <div class="wx-header-user fr">
+            <div id="wx-user-btn" class="clear">
+                <a href="#"><span>登录</span></a>
+            </div>
+        </div>
+
+        <!--登录成功头像部分-->
+        <div id="wx-pic-position" class="fr" style="display:none">
+            <span>|</span>
+            <p class="wx-pic-box">
+                <img src="../resources/img/bigpic.png" width="30px"/>
+            </p>
+        </div>
+        <!--结束-->
+
+        <div class="wx-header-ask icon-ask fr">&#xe615;</div>
+
+        <div class="wx-header-search fr">
+            <form name="wx-search" class="clear">
+                <span id="wx-tag-area" style="display:none">javascript<i>x</i></span>
+                <input type="text" value="" placeholder="搜索问题" id="wx-search-text" class="round"/>
+                <input type="button" id="wx-search-btn" class="icon-search"value="&#xe612;"/>
+            </form>
+        </div>
+    </div>
+</div>
+<!--header部分结束-->
+
+<!--中间内容部分-->
+<div id="wx-content" class="clear">
+    <div class="wx-article fl">
+        <h2>问题详情</h2>
+        <div class="wx-ques-detail">
+            <div class="wx-ques-user clear">
+                <img src="../resources/img/pic.png" width="40"/>
+                <span>大卫and科比</span>
+            </div>
+            <div class="wx-ques-desc clear">
+                <div class="wx-desc-left fl">
+                    <p class="wx-title-style">为什么老师的代码中，语句都不喜欢加;</p>
+                    <p>嗯～～，这个提问大家都在考虑...</p>
+                </div>
+                <div class="wx-desc-right fr">
+                    <ul class="wx-vote-area clear">
+                        <li class="fl">
+                            <span class="wx-like-count">6</span>
+                            <p class="wx-like-btn icon-disagree">&#xe609;</p>
+                        </li>
+                        <li class="fr">
+                            <span class="wx-dislike-count">13</span>
+                            <p class="wx-dislike-btn icon-vote">&#xe60e;</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="wx-ques-tags">
+                <em>1小时前</em>
+         <span>
+           <i>Javascript</i>
+           <i>Html/CSS</i>
+         </span>
+                <strong>12 回答</strong>
+                <b id="wx-report-btn">举报</b>
+            </div>
+        </div>
+        <!--<ul id="wx-qeus-nav">
+          <li class="wx-qeus-active">最新</li>
+          <li>热门</li>
+        </ul>-->
+        <div id="wx-ans-list">
+            <div class="wx-ans-li-parent">
+                <!--对问题回答列表-->
+                <div class="wx-ans-li">
+                    <div class="wx-ans-pic fl">
+                        <p class="wx-circle-pic">
+                            <img src="../resources/img/dasheng.jpg" width="40"/>
+                        </p>
+                        <p>大卫and科比</p>
+                    </div>
+                    <div class="wx-ans-center fl">
+                        <p class="wx-ans-title">pip list或者用pyCharm查Project Interpreterpiplistpip list</p>
+                        <p class="wx-ans-time">12分钟前</p>
+                    </div>
+                    <div class="wx-ans-btn fr">
+                        <span class="wx-reply ireply icon-big-reply">&#xe605;</span>
+                        <span>0</span>
+                    </div>
+                </div>
+                <!--回答列表结束-->
+                <!--对回答的回复部分开始-->
+                <ul class="wx-double-reply clear">
+                    <li>
+                        <div class="wx-double-reply-pic fl">
+                            <img src="../resources/img/pic1.png" width="40"/>
+                        </div>
+                        <div class="wx-double-reply-main fl">
+                            <p class="wx-username">qq_jj_1</p>
+                            <p>谢谢分享，领教~</p>
+                            <p>
+                                <span style="color:#ccc;margin-right:14px">1分钟前</span>
+                                <i class="wx-rep ireply icon-small-reply">&#xe605;</i>
+                                <i class="wx-del icon-del">&#xe60f;</i>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wx-double-reply-pic fl">
+                            <img src="../resources/img/pic1.png" width="40"/>
+                        </div>
+                        <div class="wx-double-reply-main fl">
+                            <p class="wx-username">qq_jj_1</p>
+                            <p>谢谢分享，领教~</p>
+                            <p>
+                                <span style="color:#ccc;margin-right:14px">1分钟前</span>
+                                <i class="wx-rep ireply icon-small-reply">&#xe605;</i>
+                                <i class="wx-del icon-del">&#xe60f;</i>
+                            </p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="wx-ans-li-parent">
+                <!--对问题回答列表-->
+                <div class="wx-ans-li">
+                    <div class="wx-ans-pic fl">
+                        <p class="wx-circle-pic">
+                            <img src="../resources/img/dasheng.jpg" width="40"/>
+                        </p>
+                        <p>大卫and科比</p>
+                    </div>
+                    <div class="wx-ans-center fl">
+                        <p class="wx-ans-title">pip list或者用pyCharm查Project Interpreterpiplistpip list</p>
+                        <p class="wx-ans-time">12分钟前</p>
+                    </div>
+                    <div class="wx-ans-btn fr">
+                        <span class="wx-reply ireply icon-big-reply">&#xe605;</span>
+                        <span>0</span>
+                    </div>
+                </div>
+                <!--回答列表结束-->
+                <!--对回答的回复部分开始-->
+
+            </div>
+            <div class="wx-ans-li-parent">
+                <!--对问题回答列表-->
+                <div class="wx-ans-li">
+                    <div class="wx-ans-pic fl">
+                        <p class="wx-circle-pic">
+                            <img src="../resources/img/dasheng.jpg" width="40"/>
+                        </p>
+                        <p>大卫and科比</p>
+                    </div>
+                    <div class="wx-ans-center fl">
+                        <p class="wx-ans-title">pip list或者用pyCharm查Project Interpreterpiplistpip list</p>
+                        <p class="wx-ans-time">12分钟前</p>
+                    </div>
+                    <div class="wx-ans-btn fr">
+                        <span class="wx-reply ireply icon-big-reply">&#xe605;</span>
+                        <span>0</span>
+                    </div>
+                </div>
+                <!--回答列表结束-->
+                <!--对回答的回复部分开始-->
+
+            </div>
+            <div class="wx-ans-li-parent">
+                <!--对问题回答列表-->
+                <div class="wx-ans-li">
+                    <div class="wx-ans-pic fl">
+                        <p class="wx-circle-pic">
+                            <img src="../resources/img/dasheng.jpg" width="40"/>
+                        </p>
+                        <p>大卫and科比</p>
+                    </div>
+                    <div class="wx-ans-center fl">
+                        <p class="wx-ans-title">pip list或者用pyCharm查Project Interpreterpiplistpip list</p>
+                        <p class="wx-ans-time">12分钟前</p>
+                    </div>
+                    <div class="wx-ans-btn fr">
+                        <span class="wx-reply ireply icon-big-reply">&#xe605;</span>
+                        <span>0</span>
+                    </div>
+                </div>
+                <!--回答列表结束-->
+                <!--对回答的回复部分开始-->
+
+            </div>
+
+        </div>
+        <div class="wx-mycomment clear">
+            <div class="wx-mypic fl">
+                <img src="../resources/img/dasheng.jpg" width="40px"/>
+            </div>
+            <div class="wx-comment-input fr">
+                <textarea placeholder="说两句又不会怀孕"></textarea>
+            </div>
+        </div>
+        <input type="button" id="wx-sub" value="提交问题" class="fr"/>
+    </div>
+    <div class="wx-aside fr">
+        <div id="wx-collect">
+            收藏问题
+        </div>
+        <div id="wx-releat-ques">
+            <h2>相关问题</h2>
+            <ul>
+                <li>spring mvc运用了什么思想？</li>
+                <li>Java后台管理系统数据库设...</li>
+                <li>Git命令行入门教程哪里有？</li>
+                <li>Hibernate使用的范围？</li>
+                <li>storm流技术应用领域？</li>
+                <li>ASK1.0版正式上线</li>
+            </ul>
+        </div>
+    </div>
+    
+    <!--举报模态框-->
+    <div id="wx-report">
+      <div class="wx-report-box">
+        <h2>举报理由</h2>
+        <ul class="clear">
+          <li>政治敏感</li>
+          <li>色情低俗</li>
+          <li>广告推广</li>
+          <li>人身攻击</li>
+          <li>其他原因</li>
+        </ul>
+      </div>
+      <div class="wx-btn-area">
+          <p id="wx-report-close">取消</p>
+          <p id="wx-report-confirm">确定</p>
+      </div>
+    </div>
+    <!--结束-->
+    <!--回复模态框-->
+    <div id="wx-reply-modal">
+      <div class="wx-reply-box">
+        <h2>写评论</h2>
+        <textarea placeholder="@大卫and科比:"></textarea>
+      </div>
+      <div class="wx-btn-area">
+        <p id="wx-reply-close">取消</p>
+        <p id="wx-sure-btn">提交</p>
+      </div>
+    </div>     
+    <!--结束-->
+    <!--背景遮罩-->
+    <div id="wx-shade"></div>
+    <!--结束-->
+    
+</div>
+
+<!--footer部分-->
+<div id="footer">
+    <div class="wx-footer-center">
+        <div class="wx-footer-links">
+            <ul class="clear">
+                <li><a href="javascript:void(0)" target="">learn</a></li>
+                <li><a href="http://www.newtouchone.com/" target="_blank">newtouchone</a></li>
+                <li><a href="http://maven.newtouchone.com/" target="_blank">maven</a></li>
+                <li><a href="http://git.newtouchone.com/" target="_blank">git</a></li>
+            </ul>
+            <p>Copyright © 2015 newtouchone.com All Rights Reserved</p>
+        </div>
+    </div>
+</div>
+<!--footer部分结束-->
+<script src="../resources/js/public/jquery-1.8.0.min.js"></script>
+<script src="../resources/js/public/base.js"></script>
+<script src="../resources/js/ques_detail/ques_detail.js"></script>
+</body>
+</html>

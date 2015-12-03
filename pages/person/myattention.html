@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>个人中心-我的关注</title>
+    <link rel="stylesheet" href="../../resources/css/public/base.css"/>
+    <link rel="stylesheet" href="../../resources/css/person/myattention/myattention.css">
+    <script src="../../resources/js/public/jquery-1.8.0.min.js"></script>
+    <script src="../../resources/js/person/myattention/myattention.js"></script>
+</head>
+<body>
+
+<!--header部分-->
+<div id="header">
+    <div class="wx-header-center clear">
+        <div class="wx-header-logo fl"></div>
+        <div class="wx-header-nav fl">
+            <ul id="wx-nav-ul" class="clear">
+                <a href="../index.html"><li>首页</li></a>
+                <a href="../special.html"><li>专题</li></a>
+                <a href="../tag.html"><li>标签</li></a>
+            </ul>
+        </div>
+        <div class="wx-header-user fr">
+            <div id="wx-user-btn" class="clear">
+                <a href="#"><span>登录</span></a>
+            </div>
+        </div>
+
+        <!--登录成功头像部分-->
+        <div id="wx-pic-position" class="fr" style="display:none">
+            <span>|</span>
+            <p class="wx-pic-box">
+                <img src="../../resources/img/bigpic.png" width="30px"/>
+            </p>
+        </div>
+        <!--结束-->
+
+        <div class="wx-header-ask icon-ask fr">&#xe615;</div>
+
+        <div class="wx-header-search fr">
+            <form name="wx-search" class="clear">
+                <span id="wx-tag-area" style="display:none">javascript<i>x</i></span>
+                <input type="text" value="" placeholder="搜索问题" id="wx-search-text" class="round"/>
+                <input type="button" id="wx-search-btn" class="icon-search"value="&#xe612;"/>
+            </form>
+        </div>
+    </div>
+</div>
+<!--header部分结束-->
+
+<!--中间内容部分-->
+<div id="wx-content" class="clear">
+    <div class="wx-person-aside fl">
+        <div class="wx-person-user clear">
+            <div class="wx-person-pic fl">
+                <img src="../../resources/img/bigpic.png" width="80px"/>
+            </div>
+            <div class="wx-person-name fl">
+                <h2>qq_jj_1</h2>
+                <p>UI设计师</p>
+            </div>
+        </div>
+        <div class="wx-person-qa clear">
+            <p class="first">
+                <i>0</i>
+                <a href="#"><span>问过</span></a>
+            </p>
+            <p>
+                <i>10</i>
+                <a href="#"><span>回答</span></a>
+            </p>
+        </div>
+        <ul id="wx-person-list">
+            <li><a href="#">我的收藏</a></li>
+            <li><a href="#" class="wx-list-active">我的关注</a></li>
+            <li><a href="#">消息通知</a></li>
+            <li><a href="#">退出登录</a></li>
+        </ul>
+    </div>
+    <div class="wx-person-article fr">
+        <div class="hwq-myattention">
+            我的关注
+        </div>
+        <div class="hwq-main-myattention">
+            <ul>
+                <!--数据加载开始，一条数据为一个li-->
+                <li>
+                    <a class="hwq-special-left" href=""><img src="../../resources/img/struts2.jpg" alt="struts2"></a>
+                    <div class="hwq-special-right">
+                        <h3><a href="">动效设计专题</a></h3>
+                        <p class="cut">涵盖AE、QC、FramerJS使用教程，理解动画原理和制作者经验，提供精品源文件下载及优秀作品赏析。</p>
+                        <p class="hwq-statistics"><span>共 <b>97</b> 个问题</span><a href="">进入专题<i>&nbsp;></i></a></p>
+                    </div>
+                </li>
+                <!--一条数据加载完成-->
+                <li>
+                    <a class="hwq-special-left" href=""><img src="../../resources/img/struts2.jpg" alt="struts2"></a>
+                    <div class="hwq-special-right">
+                        <h3><a href="">动效设计专题</a></h3>
+                        <p class="cut">涵盖AE、QC、FramerJS使用教程，理解动画原理和制作者经验，提供精品源文件下载及优秀作品赏析。....</p>
+                        <p class="hwq-statistics"><span>共 <b>97</b> 个问题</span><a href="">进入专题<i>&nbsp;></i></a></p>
+                    </div>
+                </li>
+                <li>
+                    <a class="hwq-special-left" href=""><img src="../../resources/img/struts2.jpg" alt="struts2"></a>
+                    <div class="hwq-special-right">
+                        <h3><a href="">动效设计专题</a></h3>
+                        <p class="cut">涵盖AE、QC、FramerJS使用教程，理解动画原理和制作者经验，提供精品源文件下载及优秀作品赏析。....</p>
+                        <p class="hwq-statistics"><span>共 <b>97</b> 个问题</span><a href="">进入专题<i>&nbsp;></i></a></p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--中间部分结束-->
+<!--footer部分-->
+<div id="footer">
+    <div class="wx-footer-center">
+        <div class="wx-footer-links">
+            <ul class="clear">
+                <li><a href="javascript:void(0)" target="">learn</a></li>
+                <li><a href="http://www.newtouchone.com/" target="_blank">newtouchone</a></li>
+                <li><a href="http://maven.newtouchone.com/" target="_blank">maven</a></li>
+                <li><a href="http://git.newtouchone.com/" target="_blank">git</a></li>
+            </ul>
+            <p>Copyright © 2015 newtouchone.com All Rights Reserved</p>
+        </div>
+    </div>
+</div>
+<!--footer部分结束-->
+<script src="../../resources/js/public/jquery-1.8.0.min.js"></script>
+<script src="../../resources/js/public/person.js"></script>
+</body>
+</html>

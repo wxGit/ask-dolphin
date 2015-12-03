@@ -1,0 +1,229 @@
+@charset "utf-8";
+#wx-content {
+    width: 89%;
+    min-width: 1200px;
+    margin: 30px auto;
+}
+#wx-content .wx-person-article {
+    width: 840px;
+    height:600px;
+    border: none;
+}
+.zl-person-title{
+    border-bottom: 1px solid #d0d6d9;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: #000000;
+    font-size: 16px;
+}
+.zl-person-title p{
+    text-align: left;
+}
+.zl-main-content{
+    width: 840px;
+}
+.zl-content-left{
+    width: 180px;
+    padding-left: 30px;
+}
+.zl-img-person{
+    padding-top: 30px;
+    width: 180px;
+    height: 180px;
+}
+.zl-btn-sumbit{
+    width: 180px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 4px;
+    background-color: #363d40;
+    color: #ffffff;
+    border: 1px solid #363d40;
+    outline: none;
+}
+.zl-content-right{
+    margin-top: 35px;
+    margin-left: 40px;
+    width: 550px;
+}
+.zl-right-name{
+    height: 60px;
+}
+.zl-input-name{
+    border-radius: 4px;
+    width: 455px;
+    outline: none;
+    height: 30px;
+    border: 1px solid #a6a6a6;
+    text-indent: 50px;
+    margin-right: 13px;
+
+}
+.zl-icon-name{
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    background: url("../../img/head.png") no-repeat;
+    left: 50px;
+    top: 7px;
+    border-right: 1px solid #f2f2f2;
+}
+.zl-div-check{
+    position: relative;
+    border: 1px solid #5ccc81;
+    border-radius: 35px;
+    width:18px;
+    height: 18px;
+    background-color: #5ccc81;
+    margin-top: -18px;
+    margin-left: 495px;
+}
+.zl-check{
+    display: block;
+    height: 5px;
+    width: 10px;
+    border: 3px solid #ffffff;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+    margin-top: 4px;
+    margin-left: 2px;
+}
+.zl-div-radio{
+    width: 455px;
+    outline: none;
+    margin-left: 10px;
+}
+.zl-right-radio-btn{
+    height: 60px;
+    width: 550px;
+    text-align: left;
+    padding-left: 9px;
+}
+.zl-right-radio-btn>span{
+    float: left;
+}
+.zl-input-radio1{
+    margin-left: 38px;
+    margin-right: 4px;
+}
+.zl-input-radio1 label{
+background-color: #000066;
+}
+.hwq-sex{
+    float: left;
+    height: 30px;
+    width: 88px;
+}
+.hwq-sex span{
+    font-size: 14px;
+    color: #000000;
+    font-weight: 500;
+    line-height: 30px;
+}
+.hwq-sex span div{
+    height: 20px;
+    width: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    float: left;
+    margin: 4px 11px;
+}
+.hwq-sex span input{
+    position: absolute;
+    z-index: 100;
+    height: 20px;
+    width: 21px;
+    margin: 5px 13px;
+    opacity: 0;
+}
+.hwq-sex span input:checked +div{
+    border: 1px solid #5ccc81;
+}
+.hwq-sex span input:checked +div i{
+    display: inline-block;
+    border: 5px solid #5ccc81;
+    border-radius: 5px;
+    margin: 5px 5px;
+}
+.zl-input-radio2{
+    margin-left: 20px;
+    margin-right: 4px;
+}
+.zl-input-radio3{
+    margin-left: 20px;
+    margin-right: 4px;
+}
+.zl-right-phone{
+    height: 60px;
+}
+.zl-input-phone{
+    border-radius: 4px;
+    width: 455px;
+    outline: none;
+    height: 30px;
+    border: 1px solid #a6a6a6;
+    text-indent: 50px;
+    margin-right: 13px;
+
+}
+.zl-icon-phone{
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    background: url("../../img/phone.png") no-repeat 7px 0;
+    left: 44px;
+    top: 7px;
+    border-right: 1px solid #f2f2f2;
+}
+.zl-right-mail{
+    height: 60px;
+}
+.zl-input-mail{
+    border-radius: 4px;
+    width: 455px;
+    outline: none;
+    height: 30px;
+    border: 1px solid #a6a6a6;
+    text-indent: 50px;
+    margin-right: 13px;
+
+}
+.zl-icon-mail{
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    background: url("../../img/mail.png") no-repeat 3px 3px;
+    left: 50px;
+    top: 7px;
+    border-right: 1px solid #f2f2f2;
+}
+.zl-right-sign{
+    height: 165px;
+    text-align: left;
+}
+.zl-input-sign{
+    resize: none;
+    border-radius: 4px;
+    width: 455px;
+    outline: none;
+    height: 130px;
+    border: 1px solid #a6a6a6;
+    margin-right: 13px;
+    font-size: 16px;
+
+}
+.zl-btn-save{
+    width: 457px;
+    height: 42px;
+    background-color: #4e51ac;
+    border-radius: 4px;
+    margin-left: 66px;
+    outline: none;
+    border: 1px solid #4e51ac;
+    color: #ffffff;
+    font-size: 18px;
+}
